@@ -33,3 +33,39 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+.container div {
+    border: solid 2px black;
+}
+
+.container {
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+}
+
+.middle {
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.middle-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.middle-center {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.middle-right {
+    display: grid;
+    grid-template-rows: 90% 10%;
+}
